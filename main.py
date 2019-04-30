@@ -65,8 +65,11 @@ def redraw_points():
     draw_points(points)
 
 def jarvis(points):
-    convex_set = []
     n = len(points)
+    if n == 0:
+        return points
+
+    convex_set = []
     l = 0
     i = 1
     while i < n:
