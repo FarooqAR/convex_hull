@@ -1,0 +1,7 @@
+Comparison Table
+
+Ran the algo on 100 points, 1000 times
+
+List     |  Linked List    | Skiplist
+
+0.0245s  |  0.733s         | 1.273s

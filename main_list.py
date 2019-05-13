@@ -61,7 +61,7 @@ def redraw_points():
     global lines
     clear_points(points)
     clear_lines(lines)
-    points = generate_random_points(15)
+    points = generate_random_points(2000)
     draw_points(points)
 
 def jarvis(points):
